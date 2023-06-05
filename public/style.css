@@ -1,0 +1,136 @@
+@media only screen and (min-width: 1024px) {
+  /* Aturan CSS untuk laptop di sini */
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  margin-left: 7rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar {
+    width: 100%;
+    height: 1.4rem;
+    background-color: antiquewhite;
+  }
+
+  .main-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .logo img {
+    width: 8rem;
+  }
+
+  /* login form */
+
+  .form-login {
+    margin-top: -1rem;
+  }
+
+  .form-login-main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+  }
+
+  .form-login-main input {
+    width: 21rem;
+    height: 1.8rem;
+    border-radius: 0.2rem;
+    border: none;
+    outline: none;
+    background-color: #e2e6ee;
+    padding: 0.3rem;
+  }
+
+  .form-login-main button {
+    width: 22rem;
+    height: 2rem;
+
+    background-color: #1877f2;
+    color: white;
+    font-weight: 600;
+    border: none;
+    outline: none;
+  }
+
+  .hyperlinks a {
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 0.9rem;
+  }
+
+  /* line */
+  hr {
+    margin-top: 1.8rem;
+  }
+
+  .button-new-account {
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    margin-left: 17.7%;
+    margin-top: 1rem;
+    width: 15rem;
+    height: 2rem;
+  }
+
+  /* footer */
+
+  .footer {
+    margin: 4rem auto;
+    margin-bottom: 1rem;
+    width: 80%;
+    /* border: 1px solid red; */
+    font-family: "Roboto", sans-serif;
+    display: flex;
+  }
+
+  .footer-1 {
+    /* border: 1px solid yellow; */
+    width: 50%;
+    text-align: center;
+    margin-right: 2rem;
+  }
+
+  .footer-1 a {
+    text-decoration: none;
+    font-size: small;
+    text-align: center;
+    color: rgb(127, 124, 124);
+  }
+
+  .footer-2 {
+    width: 50%;
+    text-align: center;
+  }
+
+  .footer-2 a {
+    text-decoration: none;
+    font-size: small;
+    text-align: center;
+    color: rgb(127, 124, 124);
+  }
+
+  .foot-last ul {
+    list-style: none;
+    display: flex;
+    margin: auto;
+    margin-bottom: 4rem;
+    margin-left: 2.8rem;
+  }
+
+  .foot-last ul li {
+    margin-left: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    color: rgb(127, 124, 124);
+  }
+}
